@@ -1,0 +1,80 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Update="wwwroot\css\site.css">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\js\site.js">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap.css">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\lib\bootstrap\dist\js\bootstrap.js">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\lib\jquery\dist\jquery.js">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\lib\jquery\dist\jquery.min.js">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>

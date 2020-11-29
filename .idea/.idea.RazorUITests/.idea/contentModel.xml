@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\dev\RazorUITests" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="RazorUITestProject" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CustomAppFactory.cs" t="Include" />
+        <e p="CustomWebApplicationFactory.cs" t="Include" />
+        <e p="HomeTest.cs" t="Include" />
+        <e p="LocalFactory.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="RazorUITestProject.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RazorUITestProject.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="RazorUITests" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ErrorViewModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="RazorUITests.AssemblyInfo.cs" t="Include" />
+              <e p="RazorUITests.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="RazorUITests.csproj" t="IncludeRecursive" />
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="Privacy.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-grid.css" t="Include" />
+                  <e p="bootstrap-grid.css.map" t="Include" />
+                  <e p="bootstrap-grid.min.css" t="Include" />
+                  <e p="bootstrap-grid.min.css.map" t="Include" />
+                  <e p="bootstrap-reboot.css" t="Include" />
+                  <e p="bootstrap-reboot.css.map" t="Include" />
+                  <e p="bootstrap-reboot.min.css" t="Include" />
+                  <e p="bootstrap-reboot.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.bundle.js" t="Include" />
+                  <e p="bootstrap.bundle.js.map" t="Include" />
+                  <e p="bootstrap.bundle.min.js" t="Include" />
+                  <e p="bootstrap.bundle.min.js.map" t="Include" />
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.js.map" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.md" t="Include" />
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="RazorUITests.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Users\Liam\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\Liam\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\Liam\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\Liam\.nuget\packages\specflow.xunit\3.4.31\lib\netstandard2.0\TechTalk.SpecFlow.xUnit.SpecFlowPlugin.dll" t="Include" />
+    <e p="C:\Users\Liam\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\Liam\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\Liam\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\Liam\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Liam\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_RazorUITests.414588842.00" t="ExcludeRecursive" />
+  </component>
+</project>
