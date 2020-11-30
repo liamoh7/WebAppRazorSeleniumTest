@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KvBlMhEJTUQ2LD3pxmFLQPfMNfLAWMCtQ7NNDK7D6M6NFpWOQmQALfCBMxag1p10RbmnR2F7ZYiYe48VEKw5Ig==",
+  "dgSpecHash": "jOLL5d+okC/5JHXwHzLIsGJN1BPWqnAGVm8s0Tu0CP3Indrx5UJ4tX6cpKsaLEu0k6AxZJz06rpxGO4q7duxfw==",
   "success": true,
-  "projectFilePath": "C:\\dev\\RazorUITests\\RazorUITests\\RazorUITests.csproj",
+  "projectFilePath": "C:\\dev\\novia\\Discovery\\RazorSeleniumWebAppFactoryTest\\RazorUITests\\RazorUITests.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

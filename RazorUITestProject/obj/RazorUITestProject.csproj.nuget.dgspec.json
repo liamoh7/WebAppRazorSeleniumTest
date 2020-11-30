@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\RazorUITests\\RazorUITestProject\\RazorUITestProject.csproj": {}
+    "C:\\dev\\novia\\Discovery\\RazorSeleniumWebAppFactoryTest\\RazorUITestProject\\RazorUITestProject.csproj": {}
   },
   "projects": {
-    "C:\\dev\\RazorUITests\\RazorUITestProject\\RazorUITestProject.csproj": {
+    "C:\\dev\\novia\\Discovery\\RazorSeleniumWebAppFactoryTest\\RazorUITestProject\\RazorUITestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\RazorUITests\\RazorUITestProject\\RazorUITestProject.csproj",
+        "projectUniqueName": "C:\\dev\\novia\\Discovery\\RazorSeleniumWebAppFactoryTest\\RazorUITestProject\\RazorUITestProject.csproj",
         "projectName": "RazorUITestProject",
-        "projectPath": "C:\\dev\\RazorUITests\\RazorUITestProject\\RazorUITestProject.csproj",
-        "packagesPath": "C:\\Users\\Liam\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\RazorUITests\\RazorUITestProject\\obj\\",
+        "projectPath": "C:\\dev\\novia\\Discovery\\RazorSeleniumWebAppFactoryTest\\RazorUITestProject\\RazorUITestProject.csproj",
+        "packagesPath": "C:\\Users\\ohanlonl\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\novia\\Discovery\\RazorSeleniumWebAppFactoryTest\\RazorUITestProject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Liam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ohanlonl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,13 +25,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AnswerDigital/_packaging/rpmi-nuget-feed@Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\dev\\RazorUITests\\RazorUITests\\RazorUITests.csproj": {
-                "projectPath": "C:\\dev\\RazorUITests\\RazorUITests\\RazorUITests.csproj"
+              "C:\\dev\\novia\\Discovery\\RazorSeleniumWebAppFactoryTest\\RazorUITests\\RazorUITests.csproj": {
+                "projectPath": "C:\\dev\\novia\\Discovery\\RazorSeleniumWebAppFactoryTest\\RazorUITests\\RazorUITests.csproj"
               }
             }
           }
@@ -113,17 +117,20 @@
         }
       }
     },
-    "C:\\dev\\RazorUITests\\RazorUITests\\RazorUITests.csproj": {
+    "C:\\dev\\novia\\Discovery\\RazorSeleniumWebAppFactoryTest\\RazorUITests\\RazorUITests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\RazorUITests\\RazorUITests\\RazorUITests.csproj",
+        "projectUniqueName": "C:\\dev\\novia\\Discovery\\RazorSeleniumWebAppFactoryTest\\RazorUITests\\RazorUITests.csproj",
         "projectName": "RazorUITests",
-        "projectPath": "C:\\dev\\RazorUITests\\RazorUITests\\RazorUITests.csproj",
-        "packagesPath": "C:\\Users\\Liam\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\RazorUITests\\RazorUITests\\obj\\",
+        "projectPath": "C:\\dev\\novia\\Discovery\\RazorSeleniumWebAppFactoryTest\\RazorUITests\\RazorUITests.csproj",
+        "packagesPath": "C:\\Users\\ohanlonl\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\novia\\Discovery\\RazorSeleniumWebAppFactoryTest\\RazorUITests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Liam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ohanlonl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,7 +138,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AnswerDigital/_packaging/rpmi-nuget-feed@Local/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {

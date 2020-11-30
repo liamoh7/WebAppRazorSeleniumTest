@@ -5,8 +5,12 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Hosting.Server.Features;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.AspNetCore.TestHost;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using RazorUITestProject.Mocks;
+using RazorUITests.Services;
 
 namespace RazorUITestProject
 {
@@ -39,11 +43,11 @@ namespace RazorUITestProject
             // not used but needed in the CreateServer method logic
             return new TestServer(new WebHostBuilder().UseStartup<TStartup>());
         }
-        protected sealed override IWebHostBuilder CreateWebHostBuilder()
+        protected override IWebHostBuilder CreateWebHostBuilder()
         {
-            var builder = WebHost.CreateDefaultBuilder(Array.Empty<string>());
-            builder.UseStartup<TStartup>();
-            return builder;
+            return WebHost.CreateDefaultBuilder()
+                .UseStartup<TStartup>()
+                .ConfigureTestServices(s => s.AddTransient<IHomeService, MockHomeService>());
         }
         
         protected override void Dispose(bool disposing)

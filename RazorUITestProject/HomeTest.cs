@@ -1,6 +1,11 @@
 ﻿using System.Threading.Tasks;
+using Microsoft.AspNetCore.TestHost;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using OpenQA.Selenium;
+using RazorUITestProject.Mocks;
 using RazorUITests;
+using RazorUITests.Services;
 using Xunit;
 
 namespace RazorUITestProject
@@ -21,11 +26,9 @@ namespace RazorUITestProject
 
             this.CustomAppFactory.WebDriver.Navigate().GoToUrl(this.CustomAppFactory.RootUri);
 
-            Assert.True(false);
-            // var result = await client.GetAsync("/");
+            var valText = this.CustomAppFactory.WebDriver.FindElement(By.ClassName("display-4")).Text;
 
-            // Assert.True(result.IsSuccessStatusCode);
+            Assert.Equal("Welcome: Fake Home Service: Goto Fake Home", valText);
         }
-        
     }
 }
